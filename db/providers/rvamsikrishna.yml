@@ -1,0 +1,4 @@
+name: rvamsikrishna
+homepage: https://github.com/rvamsikrishna
+packages:
+  - name: flutter_fluid_slider

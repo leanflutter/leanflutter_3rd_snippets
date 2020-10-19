@@ -1,0 +1,7 @@
+name: fluttercandies
+homepage: https://github.com/fluttercandies
+packages:
+  - name: extended_text_field
+    summary: Extended official text field to build special text like inline image, @somebody, custom background etc quickly.It also support to build custom seleciton toolbar and handles.
+  - name: flutter_custom_calendar
+    summary: A calendar control of flutter that supports three selection modes

@@ -1,0 +1,5 @@
+name: imaNNeoFighT
+homepage: https://github.com/imaNNeoFighT
+packages:
+  - name: fl_chart
+  - name: circular_bottom_navigation

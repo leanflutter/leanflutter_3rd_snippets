@@ -1,0 +1,4 @@
+name: jaweii
+homepage: https://github.com/jaweii
+packages:
+  - name: flutter_beautiful_popup

@@ -1,0 +1,13 @@
+{
+  "name": "leanflutter_3rd_snippets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LiJianying <lijy91@foxmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cli-progress": "^3.8.2",
+    "nodegit": "^0.27.0",
+    "yaml": "^1.10.0"
+  }
+}

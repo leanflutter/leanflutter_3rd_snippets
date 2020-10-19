@@ -1,0 +1,4 @@
+name: fireslime
+homepage: https://github.com/fireslime
+packages:
+  - name: photo_view

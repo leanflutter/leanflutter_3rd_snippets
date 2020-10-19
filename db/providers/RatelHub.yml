@@ -1,0 +1,4 @@
+name: RatelHub
+homepage: https://github.com/RatelHub
+packages:
+  - name: rflutter_alert

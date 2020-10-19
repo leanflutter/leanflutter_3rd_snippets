@@ -1,0 +1,4 @@
+name: IronLad85
+homepage: https://github.com/IronLad85
+packages:
+  - name: flutter_calendar_strip

@@ -1,0 +1,7 @@
+name: imtoori
+homepage: https://github.com/imtoori
+packages:
+  - name: country_code_picker
+    repository:
+      type: git
+      url: https://github.com/imtoori/CountryCodePicker

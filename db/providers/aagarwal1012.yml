@@ -1,0 +1,7 @@
+name: aagarwal1012
+homepage: https://github.com/aagarwal1012
+packages:
+  - name: liquid_pull_to_refresh
+    repository:
+      type: git
+      url: https://github.com/aagarwal1012/Liquid-Pull-To-Refresh

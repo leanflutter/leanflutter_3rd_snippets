@@ -1,0 +1,17 @@
+name: hnvn
+homepage: https://github.com/hnvn
+packages:
+  - name: flip_panel
+    repository:
+      type: git
+      url: https://github.com/hnvn/flutter_flip_panel
+  - name: shimmer
+    repository:
+      type: git
+      url: https://github.com/hnvn/flutter_shimmer
+  - name: pattern_formatter
+    repository:
+      type: git
+      url: https://github.com/hnvn/flutter_pattern_formatter
+
+      

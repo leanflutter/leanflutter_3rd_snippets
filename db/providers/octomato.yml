@@ -1,0 +1,4 @@
+name: octomato
+homepage: https://github.com/octomato
+packages:
+  - name: preload_page_view

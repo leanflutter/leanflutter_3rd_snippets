@@ -1,0 +1,4 @@
+name: ariedov
+homepage: https://github.com/ariedov
+packages:
+  - name: flutter_snaplist

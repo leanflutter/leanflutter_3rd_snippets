@@ -1,0 +1,4 @@
+name: vintage
+homepage: https://github.com/vintage
+packages:
+  - name: scratcher

@@ -1,0 +1,5 @@
+name: faob-dev
+homepage: https://github.com/faob-dev
+packages:
+  - name: folding_cell
+  - name: flutter_circular_text

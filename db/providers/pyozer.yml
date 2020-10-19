@@ -1,0 +1,4 @@
+name: pyozer
+homepage: https://github.com/pyozer
+packages:
+  - name: dots_indicator

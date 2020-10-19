@@ -1,0 +1,4 @@
+name: gwhcn
+homepage: https://github.com/gwhcn
+packages:
+  - name: flutter_k_chart

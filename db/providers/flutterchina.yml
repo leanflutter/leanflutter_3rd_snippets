@@ -1,0 +1,6 @@
+name: flutterchina
+homepage: https://github.com/flutterchina
+packages:
+  - name: azlistview
+  # - name: flukit
+  - name: nine_grid_view

@@ -1,0 +1,4 @@
+name: xqwzts
+homepage: https://github.com/xqwzts
+packages:
+  - name: flutter_radial_menu

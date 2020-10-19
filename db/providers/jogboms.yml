@@ -1,0 +1,4 @@
+name: jogboms
+homepage: https://github.com/jogboms
+packages:
+  - name: flutter_spinkit

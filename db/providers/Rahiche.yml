@@ -1,0 +1,4 @@
+name: Rahiche
+homepage: https://github.com/Rahiche
+packages:
+  - name: stepper_touch

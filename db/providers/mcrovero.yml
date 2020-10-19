@@ -1,0 +1,4 @@
+name: mcrovero
+homepage: https://github.com/mcrovero
+packages:
+  - name: rubber

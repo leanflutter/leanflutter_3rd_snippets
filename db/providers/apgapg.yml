@@ -1,0 +1,4 @@
+name: bnxm
+homepage: https://github.com/bnxm
+packages:
+  - name: material_floating_search_bar

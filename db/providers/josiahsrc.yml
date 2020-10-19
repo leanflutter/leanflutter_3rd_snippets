@@ -1,0 +1,7 @@
+name: josiahsrc
+homepage: https://github.com/josiahsrc
+packages:
+  - name: dough
+    repository:
+      type: git
+      url: https://github.com/josiahsrc/flutter_dough

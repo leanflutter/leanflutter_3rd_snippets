@@ -1,0 +1,15 @@
+name: Origogi
+homepage: https://github.com/Origogi
+packages:
+  - name: credit_card_input_form
+    repository:
+      type: git
+      url: https://github.com/Origogi/Flutter-Credit-Card-Input-Form
+  - name: vertical_card_pager
+    repository:
+      type: git
+      url: https://github.com/Origogi/Vertical_Card_Pager
+  - name: horizontal_card_pager
+    repository:
+      type: git
+      url: https://github.com/Origogi/Horizontal_Card_Pager
