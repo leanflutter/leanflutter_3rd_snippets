@@ -5,6 +5,15 @@ const cliProgress = require("cli-progress");
 
 const cwd = `${process.cwd()}`;
 
+if (!fs.existsSync(`${cwd}/build`)) {
+  fs.mkdirSync(`${cwd}/build`);
+  fs.mkdirSync(`${cwd}/build/3rd_package_examples`);
+}
+if (!fs.existsSync(`${cwd}/output`)) {
+  fs.mkdirSync(`${cwd}/output`);
+  fs.mkdirSync(`${cwd}/output/3rd_package_examples`);
+}
+
 let filePaths = fs
   .readdirSync(`${cwd}/db/providers`)
   .map((v) => `${cwd}/db/providers/${v}`)
