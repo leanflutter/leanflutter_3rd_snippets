@@ -7,7 +7,6 @@
   "private": false,
   "dependencies": {
     "cli-progress": "^3.8.2",
-    "nodegit": "^0.27.0",
     "yaml": "^1.10.0"
   }
 }

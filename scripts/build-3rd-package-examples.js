@@ -1,7 +1,6 @@
 const fs = require(`fs`);
 const execSync = require("child_process").execSync;
 const YAML = require("yaml");
-const Git = require("nodegit");
 const cliProgress = require("cli-progress");
 
 const cwd = `${process.cwd()}`;
@@ -27,9 +26,6 @@ for (let j = 0; j < filePaths.length; j++) {
 }
 
 const build = async () => {
-  // Git.ProxyOptions = {
-  //   type: Git.Proxy.PROXY.AUTO,
-  // };
   for (let i = 0; i < providers.length; i++) {
     const provider = providers[i];
     for (let j = 0; j < (provider.packages || []).length; j++) {
@@ -69,59 +65,7 @@ const build = async () => {
             "https://gitclone.com/"
           )} ${repoLocalPath}`
         );
-        // await Git.Clone(
-        //   repoUrl.replace("https://", "https://gitclone.com/"),
-        //   repoLocalPath,
-        //   {
-        //     fetchOpts: {
-        //       callbacks: {
-        //         transferProgress: (progress) => {
-        //           if (totalObjects == 0) {
-        //             totalObjects = progress.totalObjects();
-        //             b1.start(totalObjects, 0, {
-        //               speed: "N/A",
-        //             });
-        //           }
-        //           // console.log(totalObjects);
-        //           // console.log(progress.receivedObjects());
-        //           b1.update(progress.receivedObjects());
-        //         },
-        //       },
-        //     },
-        //   }
-        // );
         b1.stop();
-        // } else {
-        //   // create new progress bar
-        //   const b1 = new cliProgress.SingleBar({
-        //     format:
-        //       "CLI Progress |" +
-        //       "{bar}" +
-        //       "| {percentage}% || {value}/{total} Chunks || Speed: {speed}",
-        //     barCompleteChar: "\u2588",
-        //     barIncompleteChar: "\u2591",
-        //     hideCursor: true,
-        //   });
-        //   var totalObjects = 0;
-        //   const repository = await Git.Repository.open(repoLocalPath);
-        //   await repository.fetchAll({
-        //     callbacks: {
-        //       transferProgress: (progress) => {
-        //         // var p = Object.keys(progress.__proto__).map((k) =>
-        //         //   // console.log(`${k}: ${progress[k]()}`)
-        //         // );
-        //         if (totalObjects == 0) {
-        //           totalObjects = progress.totalObjects();
-        //           b1.start(totalObjects, 0, {
-        //             speed: "N/A",
-        //           });
-        //         }
-        //         // console.log(totalObjects);
-        //         // console.log(progress.receivedObjects());
-        //         b1.update(progress.receivedObjects());
-        //       },
-        //     },
-        //   });
       }
 
       try {
