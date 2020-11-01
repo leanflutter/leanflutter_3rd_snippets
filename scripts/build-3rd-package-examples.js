@@ -1,9 +1,9 @@
 const fs = require(`fs`);
 const execSync = require("child_process").execSync;
 const YAML = require("yaml");
-const cliProgress = require("cli-progress");
 
 const cwd = `${process.cwd()}`;
+const flutterDevPath = process.env.FLUTTER_DEV_PATH;
 
 if (!fs.existsSync(`${cwd}/build`)) {
   fs.mkdirSync(`${cwd}/build`);
@@ -51,30 +51,12 @@ const build = async () => {
 
       if (!fs.existsSync(`${repoLocalPath}/.git`)) {
         execSync(`rm -rf ${repoLocalPath}`);
-        // create new progress bar
-        const b1 = new cliProgress.SingleBar({
-          format:
-            "CLI Progress |" +
-            "{bar}" +
-            "| {percentage}% || {value}/{total} Chunks || Speed: {speed}",
-          barCompleteChar: "\u2588",
-          barIncompleteChar: "\u2591",
-          hideCursor: true,
-        });
-        var totalObjects = 0;
-        console.log(
-          `git clone --depth 1 ${repoUrl.replace(
-            "https://",
-            "https://gitclone.com/"
-          )} ${repoLocalPath}`
-        );
         execSync(
           `git clone --depth 1 ${repoUrl.replace(
             "https://",
             "https://gitclone.com/"
           )} ${repoLocalPath}`
         );
-        b1.stop();
       }
 
       try {
@@ -106,7 +88,7 @@ const build = async () => {
 
         const commands = [
           `cd ${examplePath}`,
-          `flutter build web --profile`,
+          `${flutterDevPath}/bin/flutter build web --profile`,
           `cd ${cwd}`,
         ];
         execSync(commands.join(" && "));
