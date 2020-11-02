@@ -1,7 +1,7 @@
 name: AlexBacich
 homepage: https://github.com/AlexBacich
 packages:
-  - name: table_sticky_headers
-    repository:
-      type: git
-      url: https://github.com/AlexBacich/sticky-headers-table
+  # - name: table_sticky_headers
+  #   repository:
+  #     type: git
+  #     url: https://github.com/AlexBacich/sticky-headers-table
