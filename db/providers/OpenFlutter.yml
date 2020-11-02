@@ -7,4 +7,4 @@ packages:
       url: https://github.com/OpenFlutter/flutter_oktoast
   - name: k_chart
   - name: flutter_page_indicators
-  - name: mini_calendar
+  # - name: mini_calendar
