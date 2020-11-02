@@ -1,4 +1,4 @@
 name: Ivaskuu
 homepage: https://github.com/Ivaskuu
 packages:
-  - name: tinder_cards
+  # - name: tinder_cards
