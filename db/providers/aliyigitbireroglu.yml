@@ -1,7 +1,7 @@
 name: aliyigitbireroglu
 homepage: https://github.com/aliyigitbireroglu
 packages:
-  - name: cupertino_tabbar
-    repository:
-      type: git
-      url: https://github.com/aliyigitbireroglu/flutter-cupertino-tabbar
+  # - name: cupertino_tabbar
+  #   repository:
+  #     type: git
+  #     url: https://github.com/aliyigitbireroglu/flutter-cupertino-tabbar
