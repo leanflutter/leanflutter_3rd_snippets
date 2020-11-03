@@ -1,5 +1,5 @@
 name: xsahil03x
 homepage: https://github.com/xsahil03x
 packages:
-  - name: before_after
+  # - name: before_after
   - name: giffy_dialog
