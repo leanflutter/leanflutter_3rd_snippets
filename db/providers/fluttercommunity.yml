@@ -16,7 +16,7 @@ packages:
     repository:
       type: git
       url: https://github.com/fluttercommunity/flutter_infinite_listview
-  - name: after_layout
-    repository:
-      type: git
-      url: https://github.com/fluttercommunity/flutter_after_layout
+  # - name: after_layout
+  #   repository:
+  #     type: git
+  #     url: https://github.com/fluttercommunity/flutter_after_layout
