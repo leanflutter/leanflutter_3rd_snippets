@@ -59,6 +59,12 @@ const build = async () => {
         );
       }
 
+      const outputPath = `${cwd}/output/3rd_package_examples/${package.name}`;
+      if (fs.existsSync(outputPath)) {
+        console.log(`Skip ${package.name}`);
+        continue;
+      }
+
       try {
         console.log("Buiding...");
         if (!fs.existsSync(`${examplePath}/web`)) {
@@ -94,8 +100,6 @@ const build = async () => {
         execSync(commands.join(" && "));
 
         if (fs.existsSync(`${examplePath}/build/web`)) {
-          const outputPath = `${cwd}/output/3rd_package_examples/${package.name}`;
-
           execSync(`rm -rf ${outputPath}`);
           execSync(`cp -R ${examplePath}/build/web ${outputPath}`);
         }
