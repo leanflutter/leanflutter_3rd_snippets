@@ -1,0 +1,11 @@
+name: tiamo
+homepage: https://github.com/tiamo
+packages:
+  - name: concentric_transition
+    repository:
+      type: git
+      url: https://github.com/tiamo/flutter-concentric-transition
+  - name: simple_map
+    repository:
+      type: git
+      url: https://github.com/tiamo/flutter-simple-map
