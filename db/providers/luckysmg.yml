@@ -1,0 +1,4 @@
+name: luckysmg
+homepage: https://github.com/luckysmg
+packages:
+  - name: flutter_swipe_action_cell
