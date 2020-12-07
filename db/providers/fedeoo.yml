@@ -1,0 +1,4 @@
+name: fedeoo
+homepage: https://github.com/fedeoo
+packages:
+  - name: flip_card
