@@ -102,6 +102,12 @@ const build = async () => {
         if (fs.existsSync(`${examplePath}/build/web`)) {
           execSync(`rm -rf ${outputPath}`);
           execSync(`cp -R ${examplePath}/build/web ${outputPath}`);
+
+          fs.writeFileSync(
+            `${outputPath}/.last_build_time`,
+            `${new Date().getTime()}`,
+            "utf8"
+          );
         }
       } catch (e) {
         console.log(e);
