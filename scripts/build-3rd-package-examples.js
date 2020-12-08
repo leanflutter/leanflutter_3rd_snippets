@@ -39,9 +39,9 @@ const build = async () => {
     const provider = providers[i];
     for (let j = 0; j < (provider.packages || []).length; j++) {
       const package = provider.packages[j];
-      console.log(package);
+      console.log(package.name);
 
-      let repoUrl = `${provider.homepage}/${package.name}`;
+      let repoUrl = `https://github.com/${provider.name}/${package.name}`;
       let repoLocalPath = `${cwd}/build/3rd_package_examples/${provider.name}/${package.name}`;
       if (package.repository) {
         repoUrl = package.repository.url;

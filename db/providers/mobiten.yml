@@ -2,8 +2,8 @@ name: mobiten
 homepage: https://github.com/mobiten
 packages:
   - name: flutter_staggered_animations
-  - name: device_preview
-    repository:
-      type: git
-      url: https://github.com/mobiten/flutter_device_preview
-  - name: path_icon
+  # - name: device_preview
+  #   repository:
+  #     type: git
+  #     url: https://github.com/mobiten/flutter_device_preview
+  # - name: path_icon

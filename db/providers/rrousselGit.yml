@@ -1,5 +1,5 @@
 name: rrousselGit
 homepage: https://github.com/rrousselGit
 packages:
-  - name: flutter_portal
+  # - name: flutter_portal
   - name: provider

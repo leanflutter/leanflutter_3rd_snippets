@@ -1,7 +1,7 @@
 name: peng8350
 homepage: https://github.com/peng8350
 packages:
-  - name: pull_to_refresh
-    repository:
-      type: git
-      url: https://github.com/peng8350/flutter_pulltorefresh
+  # - name: pull_to_refresh
+  #   repository:
+  #     type: git
+  #     url: https://github.com/peng8350/flutter_pulltorefresh

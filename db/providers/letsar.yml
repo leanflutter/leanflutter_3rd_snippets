@@ -1,12 +1,12 @@
 name: letsar
 homepage: https://github.com/letsar
 packages:
-  - name: flutter_staggered_grid_view
-    summary: A Flutter staggered grid view (masonry tiles) which supports multiple columns with rows of varying sizes
+  # - name: flutter_staggered_grid_view
+  #   summary: A Flutter staggered grid view (masonry tiles) which supports multiple columns with rows of varying sizes
   - name: flutter_slidable
     summary: A Flutter implementation of slidable list item with directional slide actions that can be dismissed.
   - name: flutter_sticky_header
   - name: flutter_scatter
   - name: overflow_view
   - name: flutter_sidekick
-  - name: flutter_parallax
+  # - name: flutter_parallax

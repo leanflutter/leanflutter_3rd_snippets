@@ -1,21 +1,21 @@
 name: fluttercommunity
 homepage: https://github.com/fluttercommunity
 packages:
-  - name: sticky_headers
-    summary: Flutter Sticky Headers - Lets you place headers on scrollable content that will stick to the top of the container whilst the content is scrolled.
-    repository:
-      type: git
-      url: https://github.com/fluttercommunity/flutter_sticky_headers
+  # - name: sticky_headers
+  #   summary: Flutter Sticky Headers - Lets you place headers on scrollable content that will stick to the top of the container whilst the content is scrolled.
+  #   repository:
+  #     type: git
+  #     url: https://github.com/fluttercommunity/flutter_sticky_headers
   - name: responsive_scaffold
   - name: page_turn
-  - name: draggable_scrollbar
-    repository:
-      type: git
-      url: https://github.com/fluttercommunity/flutter-draggable-scrollbar
-  - name: infinite_listview
-    repository:
-      type: git
-      url: https://github.com/fluttercommunity/flutter_infinite_listview
+  # - name: draggable_scrollbar
+  #   repository:
+  #     type: git
+  #     url: https://github.com/fluttercommunity/flutter-draggable-scrollbar
+  # - name: infinite_listview
+  #   repository:
+  #     type: git
+  #     url: https://github.com/fluttercommunity/flutter_infinite_listview
   # - name: after_layout
   #   repository:
   #     type: git

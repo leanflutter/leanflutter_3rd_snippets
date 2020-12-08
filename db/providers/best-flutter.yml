@@ -1,10 +1,10 @@
 name: best-flutter
 homepage: https://github.com/best-flutter
 packages:
-  - name: flutter_swiper
+  # - name: flutter_swiper
   - name: transformer_page_view
-  - name: flutter_page_indicator
+  # - name: flutter_page_indicator
   - name: easy_alert
   - name: sweetalert
-  - name: flutter_dropdown_menu
-  - name: flutter_refresh
+  # - name: flutter_dropdown_menu
+  # - name: flutter_refresh

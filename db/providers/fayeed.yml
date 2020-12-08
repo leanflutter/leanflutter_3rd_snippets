@@ -4,4 +4,3 @@ packages:
   - name: flutter_freshchat
   - name: flutter_mentions
   - name: flutter_parsed_text
-  - name: dash_chat
