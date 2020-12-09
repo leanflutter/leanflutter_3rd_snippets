@@ -1,4 +1,7 @@
 name: IronLad85
 homepage: https://github.com/IronLad85
 packages:
-  - name: flutter_calendar_strip
+  - name: calendar_strip
+    repository:
+      type: git
+      url: https://github.com/IronLad85/flutter_calendar_strip

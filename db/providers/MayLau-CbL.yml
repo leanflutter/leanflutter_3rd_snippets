@@ -1,0 +1,11 @@
+name: MayLau-CbL
+homepage: https://github.com/MayLau-CbL
+packages:
+  - name: horizontal_data_table
+    repository:
+      type: git
+      url: https://github.com/MayLau-CbL/flutter_horizontal_data_table
+  - name: horizontal_center_date_picker
+    repository:
+      type: git
+      url: https://github.com/MayLau-CbL/flutter_horizontal_center_date_picker
