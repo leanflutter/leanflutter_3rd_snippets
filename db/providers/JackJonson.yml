@@ -1,0 +1,6 @@
+name: JackJonson
+homepage: https://github.com/JackJonson
+packages:
+  - name: flutter_styled_toast
+  - name: flutter_animated_dialog
+  - name: flutter_sliding_up_panel

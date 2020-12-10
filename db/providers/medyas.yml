@@ -1,0 +1,4 @@
+name: medyas
+homepage: https://github.com/medyas
+packages:
+  - name: flutter_zoom_drawer

@@ -2,3 +2,4 @@ name: flutter
 homepage: https://github.com/flutter
 packages:
   # - name: animations
+  - name: flutter_markdown
