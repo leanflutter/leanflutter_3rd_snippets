@@ -2,3 +2,4 @@ name: jamesblasco
 homepage: https://github.com/jamesblasco
 packages:
   - name: modal_bottom_sheet
+    demoUrl: https://jamesblasco.github.io/modal_bottom_sheet/

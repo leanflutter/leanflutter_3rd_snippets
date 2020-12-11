@@ -1,0 +1,8 @@
+name: xclud
+homepage: https://github.com/xclud
+packages:
+  - name: crop
+    demoUrl: https://xclud.github.io/flutter_crop/
+    repository:
+      type: git
+      url: https://github.com/xclud/flutter_crop

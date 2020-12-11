@@ -2,3 +2,4 @@ name: rodydavis
 homepage: https://github.com/rodydavis
 packages:
   - name: data_tables
+    demoUrl: https://rodydavis.github.io/data_tables/

@@ -2,4 +2,4 @@ name: serenader2014
 homepage: https://github.com/serenader2014
 packages:
   - name: flutter_carousel_slider
-    summary: A carousel slider widget, support infinite scroll and custom child widget.
+    demoUrl: https://serenader2014.github.io/flutter_carousel_slider/

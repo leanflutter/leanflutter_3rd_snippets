@@ -6,10 +6,12 @@ packages:
       type: git
       url: https://github.com/Origogi/Flutter-Credit-Card-Input-Form
   - name: vertical_card_pager
+    demoUrl: https://origogi.github.io/Vertical_Card_Pager/
     repository:
       type: git
       url: https://github.com/Origogi/Vertical_Card_Pager
   - name: horizontal_card_pager
+    demoUrl: https://origogi.github.io/Horizontal_Card_Pager/
     repository:
       type: git
       url: https://github.com/Origogi/Horizontal_Card_Pager

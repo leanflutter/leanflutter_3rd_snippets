@@ -2,7 +2,8 @@ name: mobiten
 homepage: https://github.com/mobiten
 packages:
   - name: flutter_staggered_animations
-  # - name: device_preview
+  - name: device_preview
+    demoUrl: https://flutter-device-preview.firebaseapp.com
   #   repository:
   #     type: git
   #     url: https://github.com/mobiten/flutter_device_preview

@@ -2,3 +2,4 @@ name: MMMzq
 homepage: https://github.com/MMMzq
 packages:
   - name: bot_toast
+    demoUrl: https://mmmzq.github.io/bot_toast/

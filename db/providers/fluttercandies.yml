@@ -2,5 +2,8 @@ name: fluttercandies
 homepage: https://github.com/fluttercandies
 packages:
   # - name: extended_text_field
+  - name: extended_image
+    demoUrl: https://fluttercandies.github.io/extended_image/
   - name: flutter_custom_calendar
-    summary: A calendar control of flutter that supports three selection modes
+  - name: extended_nested_scroll_view
+    demoUrl: https://fluttercandies.github.io/extended_nested_scroll_view/

@@ -2,3 +2,4 @@ name: sarbagyastha
 homepage: https://github.com/sarbagyastha
 packages:
   - name: flutter_rating_bar
+    demoUrl: https://sarbagyastha.com.np/flutter_rating_bar/

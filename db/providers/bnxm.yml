@@ -2,3 +2,4 @@ name: apgapg
 homepage: https://github.com/apgapg
 packages:
   - name: pie_chart
+    demoUrl: https://apgapg.github.io/pie_chart/

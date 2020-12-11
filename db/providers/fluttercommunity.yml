@@ -7,7 +7,9 @@ packages:
   #     type: git
   #     url: https://github.com/fluttercommunity/flutter_sticky_headers
   - name: responsive_scaffold
+    demoUrl: https://fluttercommunity.github.io/responsive_scaffold/
   - name: page_turn
+    demoUrl: https://fluttercommunity.github.io/page_turn/
   # - name: draggable_scrollbar
   #   repository:
   #     type: git

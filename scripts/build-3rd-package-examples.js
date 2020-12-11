@@ -48,6 +48,23 @@ const build = async () => {
       }
 
       const examplePath = `${repoLocalPath}/example`;
+      const outputPath = `${cwd}/output/3rd_package_examples/${package.name}`;
+
+      if (package.demoUrl) {
+        if (fs.existsSync(`${repoLocalPath}`)) {
+          execSync(`rm -rf ${repoLocalPath}`);
+        }
+        if (fs.existsSync(outputPath)) {
+          execSync(`rm -rf ${outputPath}`);
+        }
+        console.log(package.demoUrl);
+        continue;
+      }
+
+      if (fs.existsSync(outputPath)) {
+        console.log(`Skip ${package.name}`);
+        continue;
+      }
 
       if (!fs.existsSync(`${repoLocalPath}/.git`)) {
         execSync(`rm -rf ${repoLocalPath}`);
@@ -57,12 +74,6 @@ const build = async () => {
             "https://gitclone.com/"
           )} ${repoLocalPath}`
         );
-      }
-
-      const outputPath = `${cwd}/output/3rd_package_examples/${package.name}`;
-      if (fs.existsSync(outputPath)) {
-        console.log(`Skip ${package.name}`);
-        continue;
       }
 
       try {
