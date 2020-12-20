@@ -1,0 +1,4 @@
+name: MariaMelnik
+homepage: https://github.com/MariaMelnik
+packages:
+  - name: flutter_date_pickers

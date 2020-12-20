@@ -1,0 +1,5 @@
+name: codegrue
+homepage: https://github.com/codegrue
+packages:
+  - name: flutter_material_pickers
+  - name: card_settings
